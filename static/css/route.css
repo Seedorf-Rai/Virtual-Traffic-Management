@@ -1,0 +1,112 @@
+/*styling.css*/
+/*add font family, background image*/
+
+body {
+    background-color: #202337;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #F36F20;
+
+  }
+  label{
+    position: relative !important;
+    top: 10% !important;
+  }
+
+  /*Jumbotron*/
+  .jumbotron {
+
+    color: white;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .jumbotron h1 {
+    letter-spacing: 2.5px;
+    font-size: 3.5em;
+  }
+
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+  }
+
+  /*map*/
+  #googleMap {
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+  }
+
+  /*output box*/
+  #output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+
+  #mode {
+    color: black;
+  }
+  .hero-div{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    background: url('/static/images/find-route.jpg') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100vw !important;
+    background-attachment: fixed !important;
+}
+.form-predict{
+    padding-top: 2%;
+    height: 300px;
+    width: 50%;
+    background-color: #2b2f48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 25%;
+    margin-bottom: 2%;
+}
+input{
+    margin: 10% 0;
+    width: 190px !important;
+    height: 40px !important;
+    font-size: 20px !important;
+    background-color: #1d223d !important;
+    color: orange !important;
+    border: none !important;
+    padding: 10px !important;
+}
+.form-group{
+    display: flex;
+}
+.fa-map-signs{
+    color: white;
+    /* background-color: #F36F20 !important; */
+}
+.btn-info{
+    color: white;
+    background-color: #F36F20;
+    border: none;
+}
+.btn-info:hover{
+    background-color: rgb(26, 180, 26);
+}
+.far , .fa-map-marker-alt{
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+.btn-info{
+    position: relative;
+    top: 20px;
+    left: -10px;
+}

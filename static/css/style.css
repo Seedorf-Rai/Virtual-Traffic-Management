@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sedan";
+}
+body{
+    background-color: #202337 !important;
+    overflow-x: hidden;
+
+}
+nav a{
+    color: white !important;
+    font-family: "Sedan", serif;
+    font-size: 20px;
+}
+.red{
+    position: relative;
+}
+.red-dot{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(237, 54, 54);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.green-dot{
+    height: 7px;
+    width: 7px;
+    background-color: rgb(131, 241, 71);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.nav-item{
+    margin: 0 20px;
+}
+.hero-right{
+  position: relative;
+}
+.hero-div{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    background: url('/static/images/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-attachment: fixed;
+}
+.text-div-hero{
+    width: 94%;
+    text-align: center;
+    font-family: "Sedan";
+    color: white;
+}
+.text-div-hero p{
+    color: rgb(161, 172, 181) !important;
+}
+.bigksdlvsdv{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+
+
+/* CSS */
+.button-87 {
+  background-color: #F36F20;
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+/* Optional: Hide scrollbar for Firefox */
+* {
+    scrollbar-width: none;
+}
+.how-it{
+    color: white;
+}
+.video-how{
+    width: 400px;
+    height: 500px;
+}
+.card1{
+    width: 200;
+    height: 300px;
+    background-color: #6DA5D2;
+    border-radius: 20px;
+    position: relative;
+}
+.card2{
+    width: 200;
+    height: 300px;
+    background-color: #EAB233;
+    border-radius: 20px;
+   position: relative;
+}
+.card3{
+    width: 200;
+    height: 300px;
+    background-color: #367EF3;
+    border-radius: 20px;
+    position: relative;
+}
+.card4{
+    width: 200;
+    height: 300px;
+    background-color: #325325;
+    border-radius: 20px;
+    position: relative;
+}
+.card1 img{
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+.card2 img{
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.card3 img{
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.card4 img{
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 23%;
+}
+#map{
+    height: 100%;
+    width: 100%;
+}
+.cctv-vid{
+    transform: scale(2) !important;
+}
+.video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #video {
+
+        max-width: 100%; /* Limit the maximum width */
+        max-height: 100%; /* Limit the maximum height */
+        object-fit: contain;
+
+  }
+nav{
+    height: 100px;
+}
+.search{
+    border: 1px solid white !important;
+    background-color: #2b325a;
+    border-radius: 8px;
+    color: #F36F20;
+}
